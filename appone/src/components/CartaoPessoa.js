@@ -2,12 +2,14 @@ import styles from './CartaoPessoa.module.css'
 
 function CartaoPessoa({nome, foto, profissao, bio}){
     return(
-        <div className={styles.container}>
-            <div className={styles.cartao}>
-                <h2>Nome: {nome}</h2>
-                <p>{foto}</p>
-                <p>Profissão: {profissao}</p>
-                <p>Biografia: {bio}</p>
+        <div className={styles.containerMaior}>
+            <div className={styles.container}>
+                <div className={styles.cartao}>
+                    <h2>Nome: {nome}</h2>
+                    <p>{foto}</p>
+                    <p>Profissão: {profissao}</p>
+                    <p>Biografia: {bio}</p>
+                </div>
             </div>
         </div>
     )

@@ -1,15 +1,24 @@
-.container{
-  
+.containerMaior{
+   
     
-    margin: 10px;
+    display: inline-block;
+    
+
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    
 }
 
 .cartao{
     background-color: rgb(255, 255, 255);
     border: 1px solid black;
     box-shadow: inset 1px 1px 0.1em black;
-    display: block;
+    display: inline-block;
     margin: auto;
+    margin: 10px;
     width: 100%;
     max-width: 400px;
     border-radius: 20px;
